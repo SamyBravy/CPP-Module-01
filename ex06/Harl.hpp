@@ -27,4 +27,15 @@ class Harl
 		void complain(std::string level);
 };
 
+enum level
+{
+	DEBUG,
+	INFO,
+	WARNING,
+	ERROR,
+	UNKNOWN
+};
+
+level get_level(std::string level);
+
 #endif
